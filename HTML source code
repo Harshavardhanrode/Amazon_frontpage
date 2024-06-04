@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCh3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn12TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="amazon_icon.png">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo border boxmodel1">
+                <div class="logo">
+
+
+                </div>
+                
+            </div>
+            <div class="navadd border boxmodel1">
+                <p class="del_add">deliver-to</p>
+                <div class="navadd_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="del_add1">India</p>
+                </div>
+                
+            </div>
+            <div class="navsearch">
+                <select  id="selection_list">
+                    <option class="option">All</option>
+                    <option class="option">Electronics</option>
+                    <option class="option">Clothes</option>
+                    <option class="option">Fashions and Gifts</option>
+                    <option class="option">Sports</option>
+                </select>
+                <input class="serach_option" type="search" placeholder="serach amazon">
+                <div class="search_icon" style="font-size: 20px;">
+                    <i class="fa-solid fa-magnifying-glass" style="color:#04010e;"></i>
+                </div>
+            </div>
+            <div class="language ">
+                <select class="sel_lan border">
+                    <option class="EN" ><b>EN</b></option>
+                </select>
+            </div>
+            <div class="signin border boxmodel1">
+                <p class="textsame1">Hello ,Sign in</p>
+                <p class="textsame2"><b>Accounts & Lists</b></p>
+            </div>
+
+            <div class="orders border boxmodel1">
+                <p class="textsame1">Returns</p>
+                <p class="textsame2"><b>& Orders</b></p>
+            </div>
+
+            <div class="nav_cart border boxmodel1">
+                <div class=" boxmodel1"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class=" boxmodel1"><p><b>Cart</b></p></div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="panel">
+            <div class="panel_all boxmodel2 border_panelitems">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="options">
+                <div class="minitv boxmodel2 border_panelitems">
+                    <a href="">Amazon miniTV</a>
+                </div>
+                <div class="sell boxmodel2 border_panelitems">
+                    <a href="">Sell</a>
+                </div>
+                <div class="bestsellers boxmodel2 border_panelitems">
+                    <a href=""> Best Sellers</a>
+                </div>
+                <div class="mobiles boxmodel2 border_panelitems">
+                    <a href="">Mobiles</a> 
+                </div>
+                <div class="todaysdeals boxmodel2 border_panelitems">
+                    <a href="">Today's Deals</a>
+                </div>
+                <div class="electronics boxmodel2 border_panelitems">
+                    <a href="">Electronics</a> 
+                </div>
+                <div class="Customer_Service boxmodel2 border_panelitems">
+                    <a href="">Customer Service</a> 
+                </div>
+                <div class="Home&Kitchen boxmodel2 border_panelitems">
+                    <a href="">Home & Kitchen</a> 
+                </div>
+                <div class=" Prime boxmodel2 border_panelitems">
+                    <a href=""> Prime</a> 
+                </div>
+                <div class="  New_Releases boxmodel2 border_panelitems">
+                    <a href="">  New Releases</a> 
+                </div>
+               
+               
+               
+            </div>
+
+
+            
+        </div>
+    </header>
+
+    <div class="main_window">
+        <div class="main_pic">
+            
+        </div>
+        <div class="shoppingtype">
+            <div class="shoppingtype_box1 x">
+                <div class="box1">  
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;">Soft carpets and pillocovers</h3>
+                        <div class="picbox1" style="background-image:url('box1_pic1.jpg');"></div>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>
+                </div>
+                <div class="box1">  
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;">Boult watches & heasphones</h3>
+                        <div class="picbox1" style="background-image:url('box2pic1.jpg');"></div>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>
+                </div>
+                <div class="box1"> 
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;">Hanging acessories and bulbs</h3>
+                        <div class="picbox1" style="background-image:url('box3pic1.jpg');"></div>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>    
+                </div>
+                <div class="box1">  
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;">Cleaning acessories & eq's</h3>
+                        <div class="picbox1" style="background-image:url('box4pic1.jpg');"></div>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>    
+                </div>
+            </div>
+            <div class="shoppingtype_box2 x ">
+                <div class="box2">   
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;">Hanging cuburds & lintens</h3>
+                        <div class="picbox1" style="background-image:url('box5pic1.jpg');"></div>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>    
+                </div>
+                <div class="box2">
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;">Laptop acessories and Gadgets</h3>
+                        <a href="Laptop acessories and Gadgets.html"><div class="picbox1" style="background-image:url('laptop-accessories.webp');"></div></a>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;"> Drillmachines & tools</h3>
+                        <div class="picbox1" style="background-image:url('box7pic1.jpg');"></div>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>    
+                </div>
+                <div class="box2">
+                    <div class="boxcontent">
+                        <h3 style="text-align: center;">Silver ornaments & designs</h3>
+                        <div class="picbox1" style="background-image:url('box8pic1.jpg');"></div>     
+                        <a class="buy_option" href="">buy now</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </div>
+    <div class="beforefotter" style="background-color: white; height: 200px;">
+
+    </div>
+
+    <footer>
+        <div class="backtotop" style=" ">
+            <b>Back to top</b>
+        </div>
+        <div class="lastdetails " style="display: flex; font-size: small; padding-top: 70px; justify-content: space-evenly;">
+            <div class="detail1 style1">
+                <ul>
+                <a href=""><b>Get to Know Us</b></a>
+                <a href="">About Us </a>
+                <a href="">Careers</a>
+                <a href="">Press Releases</a>
+                <a href="">Amazon Science</a>
+                </ul>
+            </div>
+            <div class="detail2 style1">
+                <ul>
+                <a href=""><b>Connect with Us</b></a>
+                 <a href="">Facebook</a>
+                 <a href=""> Twitter</a>
+                 <a href=""> Instagram</a>
+               
+            </div>
+            <div class="detail3 style1">
+                <ul>
+                <a href=""><b>Make Money with Us</b></a>
+                <a href="">Sell on Amazon</a>
+                <a href=""> Sell under Amazon Accelerator</a>
+                <a href=""> Protect and Build Your Brand</a>
+                <a href=""> Amazon Global Selling</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Fulfilment by Amazon</a>
+                <a href=""> Advertise Your Products</a>
+                <a href=""> Amazon Pay on Merchants</a>
+            </ul>
+            </div>
+            <div class="detail5 style1">
+                <ul>
+                <a href=""><b>Let Us Help You</b></a>
+                <a href="">COVID-19 and Amazon</a>
+                <a href=""> Your Account</a>
+                <a href=""> Returns Centre</a>
+                <a href="">100% Purchase Protection</a>
+                <a href=""> Amazon App Download</a>
+                <a href="">Help</a>
+            </ul>
+            </div>
+
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
